@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class Unreal101 : ModuleRules
+public class CozyIsland : ModuleRules
 {
-	public Unreal101(ReadOnlyTargetRules Target) : base(Target)
+	public CozyIsland(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	

@@ -3,13 +3,13 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class Unreal101EditorTarget : TargetRules
+public class CozyIslandTarget : TargetRules
 {
-	public Unreal101EditorTarget( TargetInfo Target) : base(Target)
+	public CozyIslandTarget(TargetInfo Target) : base(Target)
 	{
-		Type = TargetType.Editor;
+		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V4;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_3;
-		ExtraModuleNames.Add("Unreal101");
+		ExtraModuleNames.Add("CozyIsland");
 	}
 }

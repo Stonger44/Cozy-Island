@@ -5,7 +5,7 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "Unreal101",
+			"Name": "CozyIsland",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
